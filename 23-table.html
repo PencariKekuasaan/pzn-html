@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Muhammad Ilham Isfadhillah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan membuat table pada HTML</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;background-color:gray;padding-bottom:1em;">TABEL HTML</h1>
+    </header>
+    <main>
+        <h3>Membuat table sederhana yang terdiri dari td, tr , thead,tbody,tfoot, dll</h3>
+        <p>Di bawah ini merupakan tabel </p>
+
+        <table style="border:1px solid black;">
+            <colgroup>
+                <col style="background-color:yellow;">
+                <col style="background-color:green;">
+                <col style="background-color:red;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Tempat</th>
+                    <th>Tanggal</th>
+            
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fadhil</td>
+                    <td>Tangerang</td>
+                    <td>5043</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Fadhil</td>
+                    <td>Tangerang</td>
+                    <td>5043</td>
+                </tr>
+                <tr>
+                    
+                    <td>Tangerang</td>
+                    <td>5043</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>15129</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
