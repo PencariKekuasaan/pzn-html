@@ -5,6 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Muhammad Ilham Isfadhillah">
     <title>Semantic HTML</title>
+    <style>
+
+        h1{
+            text-align:center;
+        }
+        header{
+            background-color:gray;
+            color:white;
+            margin:2em;
+            padding:2em;
+            border:2px solid black;
+            border-radius:1em;
+        }
+        
+        nav{
+            background-color: yellow;
+            padding : 10px;
+            margin-bottom:2em;
+        }
+
+        nav ul{
+            list-style-type:circle;
+            overflow:hidden;
+        }
+
+        nav li{
+            
+            list-style-type:none;
+            overflow:hidden;
+            
+
+        }
+
+        nav li a{
+            
+            display:block;
+            text-align:center;
+            padding:16px;
+            text-decoration:none;
+        }
+
+        nav li a:hover {
+            background-color:orange;
+        }
+
+        article{
+            padding:1.5em;
+            width:100%;
+            background-color:gray;
+        }
+
+        article:hover:first-child{
+            background-color:green;
+        }
+
+        article:hover:last-child{
+            background-color:aqua;
+        }
+
+        footer{
+            text-align:center;
+            background-color:pink;
+            padding:1em;
+            margin-top:2em;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,7 +79,21 @@
     <nav>
         <li><a href="">Beranda</a></li>
         <li><a href="">Artikel 1</a></li>
-        <a href="">Artikel 2</a>
+        <li><a href="">Artikel 2</a></li>
     </nav>
+    <section>
+        <article>
+            <h1>Belajar HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corrupti inventore nostrum sequi libero obcaecati error nihil velit officiis voluptatibus asperiores, debitis, tempore repellendus esse distinctio deleniti, autem amet? Molestiae.</p>
+        </article>
+        <article>
+            <h1>Belajar Javascript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odit sit vel eveniet natus sequi quam doloremque aperiam? Sequi impedit odit consequuntur ipsum molestias, fuga repudiandae ab deserunt suscipit nesciunt.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>"<b>Semangat Terus belajar HTML,CSS dan Javascriptnya"</b></p>
+    </footer>
 </body>
 </html>
