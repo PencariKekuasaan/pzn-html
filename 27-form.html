@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h1 style="text-align:center;margin-bottom:2em;">Form</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente quis, sequi modi culpa dicta debitis perspiciatis fuga eos accusantium mollitia incidunt, cum nisi unde, omnis quibusdam dolore aperiam voluptates.
+    </p>   
+    <fieldset>
+    <legend>Coba isi</legend>
+        <form action="google.com" method="get">
+        <label for="Nama"> 
+            Nama :
+        </label>
+        <input type="text" placeholder="Fadhil" >
+        <br>
+        <label for="Umur">
+            Umur :
+        </label>
+        <input type="text" placeholder="20" autocomplete="on">
+        <br>
+        <label for="Daerah">
+            Daerah :
+        </label>
+        <input type="text" placeholder="Tangerang" autofocus;>
+        </form>
+        <label for="makanan">Makanan Favorit :</label>
+        <select name="makanan" id="makanan">
+            <optgroup label="Mie">
+                <option value="1">Mie Goreng</option>
+                <option value="2">Mie Rebus</option>
+            </optgroup>
+            <optgroup label="Ayam">
+                <option value="3">Ayam Kentaki</option>
+                <option value="4">Ayam Goreng</option>
+            </optgroup>
+        </select>
+        
+        
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Coba pilih salah satu</legend>
+        <p>Apakah pernah makan?</p>
+        <input type="radio" id="pil1" name="makanan1" value="1">
+        <label for="pil1">Ya</label>
+        <input type="radio" id="pil2" name="makanan1" value="2">
+        <label for="pil2">Tidak</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Coba pilih :</legend>
+        <p>Makanan yang pernah dicoba?</p>
+        <input type="checkbox" id="pil1" name="makanan2" value="1">
+        <label for="pil11">Ayam</label>
+        <input type="checkbox" id="pil2" name="makanan2" value="2">
+        <label for="pil22">Ikan</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Coba berikan pesanmu</legend>
+        <label for="pesan">Pesanmu :</label>
+        <br>
+        <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Tuliskan pesanmu disini"></textarea>
+    </fieldset>
+
+    <br>
+    <button type="submit">Kumpulkan</button>
+    <button type="reset">Ulang</button>
+    
+    
+
+</body>
+</html>
